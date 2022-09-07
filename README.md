@@ -11,3 +11,5 @@ Now, use it to create your new contract. Go to the folder in which you want to p
 ```shell
 cargo generate --git https://github.com/phamnam1805/rust-template --name PROJECT_NAME
 ```
+
+Then, go to Cargo.toml, change `profile.release.package.rust-template` to `rofile.release.package.PROJECT_NAME`
