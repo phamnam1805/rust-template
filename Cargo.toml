@@ -1,5 +1,5 @@
 [workspace]
-members = ["packages/*","contracts/*"]
+members = ["packages/*","src/*"]
 
 [profile.release.package.rust-template]
 opt-level = 3
